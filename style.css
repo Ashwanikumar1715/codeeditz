@@ -784,7 +784,13 @@ footer .btn:hover {
 	}
 }
 
+@media screen and (max-width: 380px) {
+	
+	.cc form input{
+width: 300px;
 
+}
+}
     
 
 
