@@ -241,7 +241,7 @@ body {
 	border: none;
 }
 .main-frame {
-	background: url(/quiz.jpg);
+	background: url(quiz.jpg);
 	background-size: cover;
 	background-position: center;
 }
