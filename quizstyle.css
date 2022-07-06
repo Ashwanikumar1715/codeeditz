@@ -11,7 +11,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: url(/b1.jpg);
+	background: url(b1.jpg);
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 }
