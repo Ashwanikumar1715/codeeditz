@@ -9,7 +9,21 @@
 </head>
 
 <body>
-
+<script>
+	var i = 2;
+		function switchTAB() {
+			var x = document.getElementById("list-switch");
+			if(i%2 == 0) {
+				document.getElementById("list-switch").style= "display: flex; flex-direction: column;justify-content: space-between; height: 50vh; margin-left: 10%; ";
+				document.getElementById("search-switch").style= "display: block; margin-left: 5%;";
+				document.getElementById("switch-tab").style="padding:5vh;";
+				document.getElementsByClassName("li").style= "font-size: 30px;";
+			}else {
+				document.getElementById("list-switch").style= "display: none; height: 10vh; ";
+				document.getElementById("search-switch").style= "display: none;";
+			}
+			i++;
+		}</script>
 	<!-- NAVIGATION -->
 	<header>
 		<div class="nav" id="nav">
@@ -25,7 +39,7 @@
 				<li><a href="https://ashwanikumar1715.github.io/subjects/index.html#algo"><img src="c11.png" class="icon">Algorithm</a></li>
 				<li><a href="https://ashwanikumar1715.github.io/subjects/index.html#project"><img src="c12.png" class="icon">Projects</a></li>
 			</ul>
-			
+			<div class="search" id="search-switch"> 
 		</div>
 	</header>
 
