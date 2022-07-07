@@ -285,3 +285,10 @@ body {
 		margin-top: 0px;
 	}
 }
+@media screen and (max-width: 396px){
+	.main-frame{
+		background: no-repeat ;
+		background-size: auto;
+	}
+	
+}
